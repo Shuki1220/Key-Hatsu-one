@@ -1,0 +1,11 @@
+{
+    "include": [
+        {
+            "keyboard": "hatsu_one",
+            "keymap": "vial",
+            "target": "uf2",
+            "flags": "EXTRAFLAGS=\"\"",
+            "name": "hatsu_one_vial"
+        }
+    ]
+}
