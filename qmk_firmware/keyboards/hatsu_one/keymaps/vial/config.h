@@ -1,6 +1,14 @@
 #pragma once
 
 #define VIAL_KEYBOARD_UID {0xae, 0x37, 0x79, 0xf0, 0x94, 0xa1, 0x34, 0x08}
-#define VIAL_TAP_DANCE_ENTRIES 32
-#define VIAL_COMBO_ENTRIES 8
+#define VIAL_TAP_DANCE_ENTRIES 40
+#define VIAL_COMBO_ENTRIES 10
 #define PICO_FLASH_SIZE_BYTES (1 * 1024 * 1024)
+#define DYNAMIC_KEYMAP_MACRO_COUNT 40
+
+// 例: EEPROMエミュレーションサイズを 4096 バイトに拡張する場合
+#define WEAR_LEVELING_LOGICAL_SIZE 4096
+// またはマイコンによって以下を指定
+// #define FLASH_EEPROM_EMULATION_SIZE 4096
+// #define STM32_ONBOARD_EEPROM_SIZE 8192
+
